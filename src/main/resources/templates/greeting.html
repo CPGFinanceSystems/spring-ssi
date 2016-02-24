@@ -10,6 +10,8 @@
         <h1>Hello on a second page!</h1>
         <p>Click <a th:href="@{/hello}">here</a> to go back.</p>
 
+        <div th:include="http://www.whats-your-passion.de/test.html :: ext"></div>
+
         <div th:include="fragments/footer::foot"></div>
     </body>
 </html>
